@@ -1,0 +1,43 @@
+# FastAPI and web server
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+
+# Database ORM and async support
+sqlalchemy==2.0.36
+asyncpg==0.30.0  # PostgreSQL async driver
+
+# Pydantic for data validation and typing
+pydantic==2.9.2
+
+# Alembic for database migrations
+alembic==1.14.0
+
+# Redis for caching
+redis==5.2.0
+
+# Message Broker 
+kafka-python==2.0.2  # If using Kafka as the message broker
+
+# Authentication and security
+passlib[bcrypt]==1.7.4  # For password hashing
+pyjwt==2.4.0  # JWT tokens for user authentication
+
+# Dotenv for environment variable management
+python-dotenv==0.20.0
+
+# IP geolocation API (for location analytics in Scan Events)
+requests==2.32.3
+
+# Testing framework
+pytest==7.1.1
+pytest-asyncio==0.18.3  # For testing async endpoints
+
+# Code linting and formatting
+flake8==4.0.1
+black==22.3.0  # Code formatting
+
+# Coverage reporting
+pytest-cov==3.0.0
+
+# Mocking for testing
+pytest-mock==3.7.0
